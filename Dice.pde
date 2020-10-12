@@ -94,7 +94,7 @@ class Die
   void show()
   {
     fill(255);
-    rect(myX,myY,mySize,mySize);
+    rect(myX,myY,mySize,mySize,10);
     
     noStroke();
     fill((int)(Math.random()*56 + 150),(int)(Math.random()*56 + 150),(int)(Math.random()*56 + 150));
