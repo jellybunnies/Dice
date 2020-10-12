@@ -77,13 +77,11 @@ class Die
   int mySize, myX, myY;
   int numRoll, dotSize, dotx, doty;
   
-  Die(int x, int y) //constructor
+  Die(int x, int y)
   {
-    //variable initializations here
     mySize = 60;
     myX = x;
     myY = y;
-    
     
     dotSize = 10;
     dotx = x + 15;
@@ -96,7 +94,7 @@ class Die
   void show()
   {
     fill(255);
-    square(myX,myY,mySize);
+    rect(myX,myY,mySize,mySize);
     
     noStroke();
     fill((int)(Math.random()*56 + 150),(int)(Math.random()*56 + 150),(int)(Math.random()*56 + 150));
