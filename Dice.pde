@@ -62,7 +62,7 @@ void draw()
   text("Total # of 3s: " + sum3, 245, 520);
   text("Total # of 4s: " + sum4, 355, 480);
   text("Total # of 5s: " + sum5, 355, 500);
-  text("Total # of 6s: " + sum5, 355, 520);
+  text("Total # of 6s: " + sum6, 355, 520);
   textSize(30);
   text("Total: " + sum, 45, 490);
   
